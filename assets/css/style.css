@@ -101,7 +101,7 @@ main {
  /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header*/
-    header {
+    nav {
         display: block;
         position: relative;
         box-shadow: none;
@@ -140,3 +140,10 @@ main {
         margin-top: 79px;
     }
  }
+
+  /* Media query: tablets and larger (992px and up) */
+    @media screen and (min-width:992px) {
+        nav a:hover {
+            border-bottom: 1px solid #3a3a3a;
+        }
+    }
